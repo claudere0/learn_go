@@ -2,12 +2,10 @@ package main
 
 import (
 	"fmt"
-	"learn_go/var_and_funcs"
+	"learn_go/loop_and_statements"
 )
 
 func main() {
-	fmt.Printf("started here\n\n")
-	fmt.Println(var_and_funcs.Add(45, 399))
+	loop_and_statements.MultiDefer()
 	fmt.Printf("\n")
-	fmt.Println("finished here")
 }
