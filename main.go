@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"learn_go/loop_and_statements"
+	"learn_go/struct_slice"
 )
 
 func main() {
-	loop_and_statements.MultiDefer()
+	struct_slice.Pointer()
 	fmt.Printf("\n")
 }
